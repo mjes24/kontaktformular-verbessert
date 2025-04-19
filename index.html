@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><title>Kontaktformular</title></head>
+<body>
+  <h2>Kontaktformular</h2>
+  <form onsubmit="handleSubmit(); return false;">
+    <input id="name" placeholder="Name" required><br><br>
+    <input id="email" placeholder="E-Mail" required><br><br>
+    <textarea id="message" placeholder="Ihre Nachricht..." required></textarea><br><br>
+    <button type="submit">Absenden</button>
+  </form>
+  <p id="feedback"></p>
+  <script src="script.js"></script>
+</body>
+</html>
